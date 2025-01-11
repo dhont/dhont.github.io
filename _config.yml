@@ -17,9 +17,9 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 # Site Settings
 locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "Dragos Hont"
-title_separator          : "Technologist"
-subtitle                 : "Tech Blog" # site tagline that appears below site title in masthead
+title                    : #"Dragos Hont"
+title_separator          : #"Technologist"
+subtitle                 : #"Tech Blog" # site tagline that appears below site title in masthead
 name                     : "Dragos Hont"
 description              : "A collection of technical experiments towards learning and growth"
 url                      : "https://hont.ro" # the base hostname & protocol for your site
@@ -27,7 +27,7 @@ baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+masthead_title           : " "# overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
 enable_copy_code_button  : true
@@ -100,7 +100,7 @@ github:
 author:
   name             : "Dragos Hont"
   avatar           : "/assets/images/me.png"
-  bio              : "Father, Software Engineer Manager, Architect, Tech Enthusiast"
+  bio              : "Software Engineer Manager"
   location         : "Bucharest, Romania"
   email            :
   links:
