@@ -275,9 +275,11 @@ permalink: /:categories/:title/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 # Google Analytics
-google_analytics: "G-VRKL8E14X9"
 analytics:
   provider: google-gtag
+  google:
+    tracking_id: G-VRKL8E14X9
+    
 # Encoding
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
