@@ -1,3 +1,11 @@
+---
+layout: posts
+title: "Streamlining My Homelab Setup: A Learning Journey"
+date: 2025-01-10
+categories: [homelab]
+tags: [homelab, planning, project]
+---
+
 ## Streamlining My Homelab Setup: A Learning Journey
 
 ### Introduction
