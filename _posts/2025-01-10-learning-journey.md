@@ -24,7 +24,7 @@ Although the usual approach for such projects is using Linux, I chose Windows as
 1. **Defining Requirements:** I will outline the project’s goals, current infrastructure, desired outcomes, and any constraints.
 2. **Outline Standards:** I will outline the standards I am following so I will set some guard rails in terms of defining a solution later on
 3. **High Level Design:** I will draft a visual representation of the main components. This visualization will map out the interactions between various components and ensure a thorough understanding of the system.
-4. **Propose technical stocks:** I will explore common components of technical stacks, including readily available services, online services, on-premise solutions, monitoring, deployments, provisioning, backend technologies, databases, and DevOps tools.
+4. **Propose technical stacks:** I will explore common components of technical stacks, including readily available services, online services, on-premise solutions, monitoring, deployments, provisioning, backend technologies, databases, and DevOps tools.
 
 ### Phase 2
 

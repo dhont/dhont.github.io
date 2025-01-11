@@ -73,3 +73,14 @@ The purpose of outlining standards is to ensure consistency, accuracy, and compl
 - **Silent and Energy Efficient:** Home devices should be very silent and low energy.
 - **IP Independence:** Ensure services are not dependent on ISP public IP that can change anytime.
 - **SSL Services:** Use SSL services with proper certificates, avoiding self-signed ones.
+
+
+### High Level Design
+ I will draft a visual representation of the main components. This visualization will map out the interactions between various components and ensure a thorough understanding of the system.
+
+![Excalidraw Diagram]({{ "/assets/excalidraw/hl-design.excalidraw.png" | relative_url }})
+
+### Propose technical stacks
+ I will explore common components of technical stacks, including readily available services, online services, on-premise solutions, monitoring, deployments, provisioning, backend technologies, databases, and DevOps tools.
+
+ 

@@ -1,5 +1,99 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-01-11T17:47:36+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Dragos Hont - a personal blog</title><subtitle>A collection of technical experiments towards learning and growth</subtitle><author><name>Dragos Hont</name></author><entry><title type="html">My Homelab: Phase 1</title><link href="http://localhost:4000/homelab/homelab-phase1/" rel="alternate" type="text/html" title="My Homelab: Phase 1" /><published>2025-01-11T00:00:00+02:00</published><updated>2025-01-11T00:00:00+02:00</updated><id>http://localhost:4000/homelab/homelab-phase1</id><content type="html" xml:base="http://localhost:4000/homelab/homelab-phase1/"><![CDATA[<h3 id="introduction">Introduction</h3>]]></content><author><name>Dragos Hont</name></author><category term="homelab" /><category term="homelab" /><category term="planning" /><category term="project" /><summary type="html"><![CDATA[Introduction]]></summary></entry><entry><title type="html">Streamlining My Homelab Setup: A Learning Journey</title><link href="http://localhost:4000/homelab/learning-journey/" rel="alternate" type="text/html" title="Streamlining My Homelab Setup: A Learning Journey" /><published>2025-01-10T00:00:00+02:00</published><updated>2025-01-10T00:00:00+02:00</updated><id>http://localhost:4000/homelab/learning-journey</id><content type="html" xml:base="http://localhost:4000/homelab/learning-journey/"><![CDATA[<h3 id="introduction">Introduction</h3>
-<p>This is the first in a series of quite afew posts documenting my approach to optimizing and automating my Homelab environment by levering free Azure services and affordable refurbished hardware that I can easily proqure online from EBay, OLX, etc such as Mini Pcs or evenlaptops. The project aims to set up a Homelab with a couple of well known services such as Plex, Home Assistant, *arr suite and a lot more.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-01-11T20:10:19+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Dragos Hont - a personal blog</title><subtitle>A collection of technical experiments towards learning and growth</subtitle><author><name>Dragos Hont</name></author><entry><title type="html">My Homelab: Phase 1</title><link href="http://localhost:4000/homelab/homelab-phase1/" rel="alternate" type="text/html" title="My Homelab: Phase 1" /><published>2025-01-11T00:00:00+02:00</published><updated>2025-01-11T00:00:00+02:00</updated><id>http://localhost:4000/homelab/homelab-phase1</id><content type="html" xml:base="http://localhost:4000/homelab/homelab-phase1/"><![CDATA[<h3 id="defining-requirements">Defining Requirements</h3>
+
+<h4 id="1-introduction">1. Introduction</h4>
+<ul>
+  <li>Purpose of defining requirements</li>
+  <li>Importance in the context of the project</li>
+</ul>
+
+<h4 id="2-project-goals">2. Project Goals</h4>
+<ul>
+  <li>High-level objectives</li>
+  <li>Specific, measurable outcomes</li>
+  <li>Long-term vision for the Homelab</li>
+</ul>
+
+<h4 id="3-current-infrastructure">3. Current Infrastructure</h4>
+<ul>
+  <li>Overview of the existing setup</li>
+  <li>Hardware and software currently in use</li>
+  <li>Network configuration and connectivity</li>
+</ul>
+
+<h4 id="4-desired-outcomes">4. Desired Outcomes</h4>
+<ul>
+  <li>Specific features and functionalities to be achieved</li>
+  <li>Performance improvements and scalability</li>
+  <li>Automation and maintenance goals</li>
+</ul>
+
+<h4 id="5-constraints">5. Constraints</h4>
+<ul>
+  <li>Budget limitations</li>
+  <li>Timeframe and deadlines</li>
+  <li>Resource availability (hardware, software, personnel)</li>
+</ul>
+
+<h4 id="6-dependencies">6. Dependencies</h4>
+<ul>
+  <li>External services and tools</li>
+  <li>Integration with existing systems</li>
+  <li>Potential bottlenecks and risks</li>
+</ul>
+
+<h4 id="7-use-cases-and-user-stories">7. Use Cases and User Stories</h4>
+<ul>
+  <li>Typical scenarios and workflows</li>
+  <li>User interactions and expectations</li>
+  <li>Edge cases and exceptional situations</li>
+</ul>
+
+<h4 id="8-requirements-gathering">8. Requirements Gathering</h4>
+<ul>
+  <li>Stakeholder interviews and surveys</li>
+  <li>Documentation and analysis of needs</li>
+  <li>Prioritization of requirements</li>
+</ul>
+
+<h4 id="9-functional-requirements">9. Functional Requirements</h4>
+<ul>
+  <li>Detailed list of functionalities</li>
+  <li>Technical specifications and criteria</li>
+  <li>Acceptance criteria for each requirement</li>
+</ul>
+
+<h4 id="10-non-functional-requirements">10. Non-Functional Requirements</h4>
+<ul>
+  <li>Performance metrics and benchmarks</li>
+  <li>Security considerations</li>
+  <li>Usability and user experience standards</li>
+</ul>
+
+<h3 id="outline-standards">Outline Standards</h3>
+
+<p>The purpose of outlining standards is to ensure consistency, accuracy, and compliance with project requirements. These standards provide clear guidelines on design expectations, materials, methods, and quality, helping to avoid misunderstandings and errors throughout the project. It’s essential for these standards to be as agnostic as possible of the technology used, but especially in home projects where resources such as devices and existing licenses are based on availability. This helps to avoid exceeding the project budget.</p>
+
+<ul>
+  <li><strong>Public Services:</strong> Utilize services such as Azure Pipelines or GitPipelines for CI/CD.</li>
+  <li><strong>GitOps Practices:</strong> Implement Git pull requests to push changes into the system.</li>
+  <li><strong>Continuous Delivery:</strong> Ensure continuous delivery pipelines for efficient deployments.</li>
+  <li><strong>Network Configuration:</strong> Set up virtual LANs for VMs with different roles.</li>
+  <li><strong>Provisioning:</strong> Add new devices/VMs through provisioning with minimal manual steps.</li>
+  <li><strong>Low Power Devices:</strong> Use low-power on-premise devices that are not sensitive to power outages.</li>
+  <li><strong>Backup Power:</strong> Ensure critical services are on devices with backup power.</li>
+  <li><strong>Silent and Energy Efficient:</strong> Home devices should be very silent and low energy.</li>
+  <li><strong>IP Independence:</strong> Ensure services are not dependent on ISP public IP that can change anytime.</li>
+  <li><strong>SSL Services:</strong> Use SSL services with proper certificates, avoiding self-signed ones.</li>
+</ul>
+
+<h3 id="high-level-design">High Level Design</h3>
+<p>I will draft a visual representation of the main components. This visualization will map out the interactions between various components and ensure a thorough understanding of the system.</p>
+
+<p><img src="/assets/excalidraw/hl-design.excalidraw.png" alt="Excalidraw Diagram" /></p>
+
+<h3 id="propose-technical-stacks">Propose technical stacks</h3>
+<p>I will explore common components of technical stacks, including readily available services, online services, on-premise solutions, monitoring, deployments, provisioning, backend technologies, databases, and DevOps tools.</p>]]></content><author><name>Dragos Hont</name></author><category term="homelab" /><category term="homelab" /><category term="planning" /><category term="project" /><summary type="html"><![CDATA[Defining Requirements 1. Introduction Purpose of defining requirements Importance in the context of the project 2. Project Goals High-level objectives Specific, measurable outcomes Long-term vision for the Homelab 3. Current Infrastructure Overview of the existing setup Hardware and software currently in use Network configuration and connectivity 4. Desired Outcomes Specific features and functionalities to be achieved Performance improvements and scalability Automation and maintenance goals 5. Constraints Budget limitations Timeframe and deadlines Resource availability (hardware, software, personnel) 6. Dependencies External services and tools Integration with existing systems Potential bottlenecks and risks 7. Use Cases and User Stories Typical scenarios and workflows User interactions and expectations Edge cases and exceptional situations 8. Requirements Gathering Stakeholder interviews and surveys Documentation and analysis of needs Prioritization of requirements 9. Functional Requirements Detailed list of functionalities Technical specifications and criteria Acceptance criteria for each requirement 10. Non-Functional Requirements Performance metrics and benchmarks Security considerations Usability and user experience standards Outline Standards The purpose of outlining standards is to ensure consistency, accuracy, and compliance with project requirements. These standards provide clear guidelines on design expectations, materials, methods, and quality, helping to avoid misunderstandings and errors throughout the project. It’s essential for these standards to be as agnostic as possible of the technology used, but especially in home projects where resources such as devices and existing licenses are based on availability. This helps to avoid exceeding the project budget. Public Services: Utilize services such as Azure Pipelines or GitPipelines for CI/CD. GitOps Practices: Implement Git pull requests to push changes into the system. Continuous Delivery: Ensure continuous delivery pipelines for efficient deployments. Network Configuration: Set up virtual LANs for VMs with different roles. Provisioning: Add new devices/VMs through provisioning with minimal manual steps. Low Power Devices: Use low-power on-premise devices that are not sensitive to power outages. Backup Power: Ensure critical services are on devices with backup power. Silent and Energy Efficient: Home devices should be very silent and low energy. IP Independence: Ensure services are not dependent on ISP public IP that can change anytime. SSL Services: Use SSL services with proper certificates, avoiding self-signed ones. High Level Design I will draft a visual representation of the main components. This visualization will map out the interactions between various components and ensure a thorough understanding of the system. Propose technical stacks I will explore common components of technical stacks, including readily available services, online services, on-premise solutions, monitoring, deployments, provisioning, backend technologies, databases, and DevOps tools.]]></summary></entry><entry><title type="html">Streamlining My Homelab Setup: A Learning Journey</title><link href="http://localhost:4000/homelab/learning-journey/" rel="alternate" type="text/html" title="Streamlining My Homelab Setup: A Learning Journey" /><published>2025-01-10T00:00:00+02:00</published><updated>2025-01-10T00:00:00+02:00</updated><id>http://localhost:4000/homelab/learning-journey</id><content type="html" xml:base="http://localhost:4000/homelab/learning-journey/"><![CDATA[<h3 id="introduction">Introduction</h3>
+<p>This is the first in a series of a few posts documenting my approach to optimizing and automating my Homelab environment by levering free Azure services and affordable refurbished hardware that I can easily proqure online from EBay, OLX, etc such as Mini Pcs or evenlaptops. The project aims to set up a Homelab with a couple of well known services such as Plex, Home Assistant, *arr suite and a lot more.</p>
 
 <p>Setting up a Homelab can seem daunting, with approaches ranging from simple manual setups to full-scale home cloud implementations. My approach strikes a balance, leveraging existing resources and progressively implementing automation to ensure easy maintenance and intervention when issues arise. In all fairness I am using this project to get further knowledge and practice in setting up Azure Arc on premise, making use of the Azure Portal and DevOps Pipelines to provision VMs and deploy Azure Kubernetes Services.</p>
 
@@ -16,7 +110,7 @@
   <li><strong>Defining Requirements:</strong> I will outline the project’s goals, current infrastructure, desired outcomes, and any constraints.</li>
   <li><strong>Outline Standards:</strong> I will outline the standards I am following so I will set some guard rails in terms of defining a solution later on</li>
   <li><strong>High Level Design:</strong> I will draft a visual representation of the main components. This visualization will map out the interactions between various components and ensure a thorough understanding of the system.</li>
-  <li><strong>Propose technical stocks:</strong> I will explore common components of technical stacks, including readily available services, online services, on-premise solutions, monitoring, deployments, provisioning, backend technologies, databases, and DevOps tools.</li>
+  <li><strong>Propose technical stacks:</strong> I will explore common components of technical stacks, including readily available services, online services, on-premise solutions, monitoring, deployments, provisioning, backend technologies, databases, and DevOps tools.</li>
 </ol>
 
 <h3 id="phase-2">Phase 2</h3>
@@ -26,4 +120,4 @@
   <li><strong>Setup Deployment:</strong> I will establish a deployment pipeline to deply  applications and services into environments with minimal manual intervention.</li>
   <li><strong>Implement:</strong> I will develope and configure the necessary components, integrating them into the overall system, and ensuring they function as intended.</li>
   <li><strong>Monitoring:</strong> I will implement a monitoring system to quickly identify and address issues, ensuring everything runs smoothly.</li>
-</ol>]]></content><author><name>Dragos Hont</name></author><category term="homelab" /><category term="homelab" /><category term="planning" /><category term="project" /><summary type="html"><![CDATA[Introduction This is the first in a series of quite afew posts documenting my approach to optimizing and automating my Homelab environment by levering free Azure services and affordable refurbished hardware that I can easily proqure online from EBay, OLX, etc such as Mini Pcs or evenlaptops. The project aims to set up a Homelab with a couple of well known services such as Plex, Home Assistant, *arr suite and a lot more. Setting up a Homelab can seem daunting, with approaches ranging from simple manual setups to full-scale home cloud implementations. My approach strikes a balance, leveraging existing resources and progressively implementing automation to ensure easy maintenance and intervention when issues arise. In all fairness I am using this project to get further knowledge and practice in setting up Azure Arc on premise, making use of the Azure Portal and DevOps Pipelines to provision VMs and deploy Azure Kubernetes Services. I will explore two main dimensions: utilizing free or inexpensive automation tools and service offerings, and identifying optional steps where professional solutions could be integrated. The initial assumption is that I have PC/laptop capable of Running Windows and Hyper-V for virtualization. Additional devices will be introduced throughout the guides to practice key concepts, such as clustering, GitOps, Provisioning, PXE, etc. Project Overview Since this project involves getting acquainted with several technology stacks, my initial approach is to ensure I have a few essential services up and running on my home network before going through more elaborate approach. For this purpose, I found an old Lenovo ThinkPad T480 laptop running Windows. (These devices are easily available online and are a good start for such projects due to their affordability and reliability.) Although the usual approach for such projects is using Linux, I chose Windows as an initial control plane because it is typically pre-installed and licensed on these devices, making it an accessible starting point. I installed Plex Media Server and used the built-in Hyper-V feature to set up a simple Docker Compose file within an Ubuntu Virtual Machine. This setup allows me to test a few key concepts and actually having and understand how I can leverage this project effectively. Running Docker on Windows requires some tweaking, especially for Linux containers, but there are numerous guides available online. Phase 1 Defining Requirements: I will outline the project’s goals, current infrastructure, desired outcomes, and any constraints. Outline Standards: I will outline the standards I am following so I will set some guard rails in terms of defining a solution later on High Level Design: I will draft a visual representation of the main components. This visualization will map out the interactions between various components and ensure a thorough understanding of the system. Propose technical stocks: I will explore common components of technical stacks, including readily available services, online services, on-premise solutions, monitoring, deployments, provisioning, backend technologies, databases, and DevOps tools. Phase 2 Provision Resources: I will start by allocating the necessary computing power, storage, and network capabilities for my project’s infrastructure. Setup Deployment: I will establish a deployment pipeline to deply applications and services into environments with minimal manual intervention. Implement: I will develope and configure the necessary components, integrating them into the overall system, and ensuring they function as intended. Monitoring: I will implement a monitoring system to quickly identify and address issues, ensuring everything runs smoothly.]]></summary></entry></feed>
+</ol>]]></content><author><name>Dragos Hont</name></author><category term="homelab" /><category term="homelab" /><category term="planning" /><category term="project" /><summary type="html"><![CDATA[Introduction This is the first in a series of a few posts documenting my approach to optimizing and automating my Homelab environment by levering free Azure services and affordable refurbished hardware that I can easily proqure online from EBay, OLX, etc such as Mini Pcs or evenlaptops. The project aims to set up a Homelab with a couple of well known services such as Plex, Home Assistant, *arr suite and a lot more. Setting up a Homelab can seem daunting, with approaches ranging from simple manual setups to full-scale home cloud implementations. My approach strikes a balance, leveraging existing resources and progressively implementing automation to ensure easy maintenance and intervention when issues arise. In all fairness I am using this project to get further knowledge and practice in setting up Azure Arc on premise, making use of the Azure Portal and DevOps Pipelines to provision VMs and deploy Azure Kubernetes Services. I will explore two main dimensions: utilizing free or inexpensive automation tools and service offerings, and identifying optional steps where professional solutions could be integrated. The initial assumption is that I have PC/laptop capable of Running Windows and Hyper-V for virtualization. Additional devices will be introduced throughout the guides to practice key concepts, such as clustering, GitOps, Provisioning, PXE, etc. Project Overview Since this project involves getting acquainted with several technology stacks, my initial approach is to ensure I have a few essential services up and running on my home network before going through more elaborate approach. For this purpose, I found an old Lenovo ThinkPad T480 laptop running Windows. (These devices are easily available online and are a good start for such projects due to their affordability and reliability.) Although the usual approach for such projects is using Linux, I chose Windows as an initial control plane because it is typically pre-installed and licensed on these devices, making it an accessible starting point. I installed Plex Media Server and used the built-in Hyper-V feature to set up a simple Docker Compose file within an Ubuntu Virtual Machine. This setup allows me to test a few key concepts and actually having and understand how I can leverage this project effectively. Running Docker on Windows requires some tweaking, especially for Linux containers, but there are numerous guides available online. Phase 1 Defining Requirements: I will outline the project’s goals, current infrastructure, desired outcomes, and any constraints. Outline Standards: I will outline the standards I am following so I will set some guard rails in terms of defining a solution later on High Level Design: I will draft a visual representation of the main components. This visualization will map out the interactions between various components and ensure a thorough understanding of the system. Propose technical stacks: I will explore common components of technical stacks, including readily available services, online services, on-premise solutions, monitoring, deployments, provisioning, backend technologies, databases, and DevOps tools. Phase 2 Provision Resources: I will start by allocating the necessary computing power, storage, and network capabilities for my project’s infrastructure. Setup Deployment: I will establish a deployment pipeline to deply applications and services into environments with minimal manual intervention. Implement: I will develope and configure the necessary components, integrating them into the overall system, and ensuring they function as intended. Monitoring: I will implement a monitoring system to quickly identify and address issues, ensuring everything runs smoothly.]]></summary></entry></feed>
