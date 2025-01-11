@@ -1,0 +1,13 @@
+/* Custom Styles */
+
+.author-photo {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .author-photo img {
+    max-width: 150px;
+    border-radius: 50%;
+    border: 2px solid #333;
+  }
+  

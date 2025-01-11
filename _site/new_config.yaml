@@ -1,0 +1,78 @@
+# Site settings
+title: "Dragos Hont's Personal Site"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://hont.ro" # the base hostname & protocol for your site
+twitter_username: MrMerisor
+github_username: dhont
+linkedin_username: dragoshont
+
+# Build settings
+markdown: kramdown
+theme: minimal-mistakes-jekyll
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-archives
+
+# Pagination settings
+paginate: 5
+paginate_path: "/page:num/"
+
+# Custom collections
+collections:
+  my_collection:
+    output: true
+    permalink: /:collection/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Dhont"
+
+# Social links
+social_links:
+  github: https://github.com/dhont
+  linkedin: https://www.linkedin.com/in/dragoshont/
+  twitter: https://twitter.com/MrMerisor
+  facebook: your-facebook-username
+  instagram: your-instagram-username
+
+# Exclude files from production site
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+# Include files in production site
+include:
+  - _pages
+  - _my_collection
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-archives
+
+# Archive settings (optional)
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    tag: archive-taxonomy
+    category: archive-taxonomy
+  permalinks:
+    tag: /tag/:name/
+    category: /category/:name/
+
+# Google Analytics
+google_analytics: "G-VRKL8E14X9"

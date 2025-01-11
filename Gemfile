@@ -1,0 +1,12 @@
+source "https://rubygems.org"
+
+gem "jekyll", "~> 4.2.0"
+gem "minimal-mistakes-jekyll"
+gem "eventmachine", "~> 1.2.7"
+gem "http_parser.rb", "~> 0.8.0"
+gem "json", "~> 2.9.1"
+gem "sassc", "~> 2.4.0"
+gem "webrick", "~> 1.7"
+gem "jekyll-seo-tag"
+gem "faraday-retry"
+gem "jekyll-archives"

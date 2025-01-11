@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>http://localhost:4000/category1/category2/new-challenge-copy-2/</loc>
+<lastmod>2025-01-11T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/category1/category2/new-challenge/</loc>
+<lastmod>2025-01-11T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/category1/category2/learning-journey/</loc>
+<lastmod>2025-01-11T00:00:00+02:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/collection-archive/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/tags/tag1/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/tags/tag2/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/categories/category1/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/categories/category2/</loc>
+</url>
+</urlset>
