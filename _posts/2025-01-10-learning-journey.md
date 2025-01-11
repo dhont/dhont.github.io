@@ -6,10 +6,8 @@ categories: [homelab]
 tags: [homelab, planning, project]
 ---
 
-## Streamlining My Homelab Setup: A Learning Journey
-
 ### Introduction
-This is the first in a series of quite afew posts documenting my approach to optimizing and automating my Homelab environment by levering free Azure services and affordable refurbished hardware that I can easily proqure online from EBay, OLX, etc such as Mini Pcs or evenlaptops. The project aims to set up a Homelab with a couple of well known services such as Plex, Home Assistant, *arr suite and a lot more. 
+This is the first in a series of a few posts documenting my approach to optimizing and automating my Homelab environment by levering free Azure services and affordable refurbished hardware that I can easily proqure online from EBay, OLX, etc such as Mini Pcs or evenlaptops. The project aims to set up a Homelab with a couple of well known services such as Plex, Home Assistant, *arr suite and a lot more. 
 
 Setting up a Homelab can seem daunting, with approaches ranging from simple manual setups to full-scale home cloud implementations. My approach strikes a balance, leveraging existing resources and progressively implementing automation to ensure easy maintenance and intervention when issues arise. In all fairness I am using this project to get further knowledge and practice in setting up Azure Arc on premise, making use of the Azure Portal and DevOps Pipelines to provision VMs and deploy Azure Kubernetes Services.
 
