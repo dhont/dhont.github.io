@@ -1,7 +1,7 @@
 ---
 layout: posts
-title: "2024-12-27 Post"
-date: 2024-12-27
+title: "2024-12-29 Post"
+date: 2024-12-29
 categories: [category1, category2]
 tags: [tag1, tag2]
 ---

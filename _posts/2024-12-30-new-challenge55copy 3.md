@@ -1,7 +1,7 @@
 ---
 layout: posts
-title: "My First Post"
-date: 2025-01-11
+title: "2024-12-30 Post"
+date: 2024-12-30
 categories: [category1, category2]
 tags: [tag1, tag2]
 ---
