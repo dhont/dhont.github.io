@@ -17,8 +17,8 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 # Site Settings
 locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : #"Dragos Hont"
-title_separator          : #"Technologist"
+title                    : "Dragos Hont - a personal blog"
+title_separator          : "Personal Blog"
 subtitle                 : #"Tech Blog" # site tagline that appears below site title in masthead
 name                     : "Dragos Hont"
 description              : "A collection of technical experiments towards learning and growth"
