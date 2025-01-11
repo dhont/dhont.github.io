@@ -86,6 +86,13 @@ naver_site_verification  :
 yandex_site_verification :
 baidu_site_verification  :
 
+# Introduction
+intro:
+  enabled: true
+  title: "Welcome to Dragos Hont's Personal Blog"
+  text: "This is a collection of technical experiments towards learning and growth. Stay tuned for more updates and posts!"
+
+
 # Social Sharing
 twitter:
   username               : MrMerisor
